@@ -1,0 +1,618 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: roboto;
+}
+
+
+/*HOME*/
+
+.backimageindex {
+    background-image: url(../ressources/Images/Home/Backhome.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.headertitreindex {
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #333333;
+    height: 5%;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.headertitre h1 {
+    display: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #e58e26;
+}
+
+.headertitreindex .h1index {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color: #e58e26;
+}
+
+
+/*navigation*/
+
+nav {
+    position: absolute;
+    right: 0;
+    left: 0;
+    background-color: #fff;
+    text-align: center;
+    transition: 0.800s ease;
+    height: 15px;
+    padding: 7px;
+    opacity: 0.8;
+}
+
+nav a {
+    padding: 60px;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: roboto;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+nav a:hover:before {
+    transform: scale(1);
+}
+
+nav a:after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #000;
+    transform: scale(0);
+    transition: 0.5s;
+}
+
+nav a:hover::after {
+    transform: scale(1);
+}
+
+nav a:hover {
+    letter-spacing: 5px;
+}
+
+
+/*citation*/
+
+.citation {
+    position: absolute;
+    top: 20%;
+    left: 12%;
+    color: white;
+    margin: 20px;
+    font-family: Indie Flower;
+    font-size: 150%;
+    font-weight: bold;
+    transform: rotate(-10deg);
+}
+
+.autheur_citation {
+    position: absolute;
+    top: 28%;
+    left: 20%;
+    color: white;
+    margin: 20px;
+    font-family: Indie Flower;
+    color: #e58e26;
+    transform: rotate(-10deg);
+    font-size: 150%;
+    font-weight: bold;
+}
+
+
+/*annimated text*/
+
+.outer {
+    position: relative;
+    left: 45%;
+    top: 10%;
+    width: 800px;
+    margin-top: 300px;
+}
+
+h1 {
+    font-size: 45px;
+    color: #fff;
+    margin-right: 50px;
+    padding-right: 100px;
+}
+
+.inner {
+    position: absolute;
+    height: 50px;
+    line-height: 50px;
+    font-size: 45px;
+    text-transform: uppercase;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.inner .defile {
+    animation: animate1 10s ease infinite;
+    position: relative;
+    color: #e58e26;
+}
+
+@keyframes animate1 {
+    0% {
+        top: 0
+    }
+    20% {
+        top: 0
+    }
+    25% {
+        top: -50px
+    }
+    45% {
+        top: -50px
+    }
+    50% {
+        top: -100px
+    }
+    70% {
+        top: -100px
+    }
+    75% {
+        top: -150px
+    }
+    95% {
+        top: -150px
+    }
+    100% {
+        top: -150px
+    }
+}
+
+
+/*enonce*/
+
+.backimagerules {
+    background-image: url(../ressources/Images/Rules/Backrules.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.citation_rules {
+    color: black;
+    position: absolute;
+    font-size: 110%;
+    top: 53%;
+    left: 15.5%;
+    transform: rotate(-40deg);
+    font-family: Indie Flower;
+    font-weight: bold;
+}
+
+.autheur_citation_rules {
+    position: absolute;
+    font-size: 110%;
+    top: 57%;
+    left: 23%;
+    transform: rotate(-41deg);
+    font-family: Indie Flower;
+    font-weight: bold;
+    color: #e58e26;
+}
+
+.rules {
+    position: absolute;
+    top: 70%;
+    left: 21%;
+    font-size: 110%;
+    transform: rotate(-40deg);
+    font-weight: bold;
+    font-family: Indie Flower;
+    color: black;
+}
+
+.rules2 {
+    position: absolute;
+    top: 65%;
+    left: 28%;
+    font-size: 110%;
+    transform: rotate(-50deg);
+    font-weight: bold;
+    font-family: Indie Flower;
+    color: red;
+    text-decoration-line: underline
+}
+
+.show {
+    position: absolute;
+    top: 75%;
+    left: 23%;
+    font-size: 110%;
+    transform: rotate(-40deg);
+    font-weight: bold;
+    font-family: Indie Flower;
+    color: black;
+}
+
+
+/*models*/
+
+.backimagemodel {
+    background-image: url(../ressources/Images/Maquettage/backmodel2.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.citation_model {
+    color: #fff;
+    position: absolute;
+    font-size: 150%;
+    top: 16%;
+    left: 10%;
+    transform: rotate(-10deg);
+    font-family: Indie Flower;
+    font-weight: bold;
+}
+
+.autheur_citation_model {
+    position: absolute;
+    font-size: 150%;
+    top: 25%;
+    left: 15%;
+    transform: rotate(-11deg);
+    font-family: Indie Flower;
+    font-weight: bold;
+    color: #e58e26;
+}
+
+#idea {
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    transform: rotate(10deg);
+}
+
+#create {
+    position: absolute;
+    top: 39%;
+    left: 28%;
+    transform: rotate(10deg);
+}
+
+#planification {
+    position: absolute;
+    top: 41%;
+    left: 41%;
+    transform: rotate(10deg);
+}
+
+#organise {
+    position: absolute;
+    top: 50%;
+    left: 57%;
+    transform: rotate(10deg);
+}
+
+
+/*coding*/
+
+.backimagecoding {
+    background-image: url(../ressources/Images/Coding/Backcoding1.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.citation_coding {
+    color: #fff;
+    position: absolute;
+    font-size: 150%;
+    top: 17%;
+    left: 10%;
+    transform: rotate(-10deg);
+    font-family: Indie Flower;
+    font-weight: bold;
+}
+
+.autheur_citation_coding {
+    position: absolute;
+    font-size: 150%;
+    top: 20%;
+    left: 30%;
+    transform: rotate(-11deg);
+    font-family: Indie Flower;
+    font-weight: bold;
+    color: #e58e26;
+}
+
+p {
+    transform: rotate(-15deg);
+    color: #57d53b;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.line {
+    position: relative;
+    top: 50%;
+    left: 20%;
+    width: 16em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    font-size: 300%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translate(-50%);
+}
+
+
+/*animations*/
+
+.anim-typewriter {
+    animation: typewriter 4s steps(40) 1s 1 normal both, blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 16em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: #57d53b;
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+
+/*link*/
+
+.backimagelink {
+    background-image: url(../ressources/Images/Link/backlink1.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.citation_link {
+    color: #fff;
+    position: absolute;
+    font-size: 200%;
+    top: 10%;
+    left: 5%;
+    font-family: Indie Flower;
+    font-weight: bold;
+}
+
+.autheur_citation_link {
+    position: absolute;
+    font-size: 200%;
+    top: 20%;
+    left: 5%;
+    font-family: Indie Flower;
+    font-weight: bold;
+    color: #FF5500;
+}
+
+
+/*nom ressource 1 Neon blinking effect*/
+
+.nomressource1 {
+    color: #0e3742;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    font-size: 200%;
+    position: absolute;
+    right: 60%;
+    top: 37%;
+    transform: rotate(0);
+    animation: neonblink 3s linear infinite;
+}
+
+@keyframes neonblink {
+    0%,
+    18%,
+    20%,
+    50.1%,
+    60%,
+    65.1%,
+    80%,
+    90.1%,
+    92% {
+        color: #331A00;
+        text-shadow: none;
+    }
+    18.1%,
+    20.1%,
+    30%,
+    50%,
+    60.1%,
+    65%,
+    80%,
+    90%,
+    92.1% {
+        color: #fff;
+        text-shadow: 0 0 10px #FF4019, 0 0 20px #FF4019, 0 0 40px #FF4019, 0 0 80px #FF4019, 0 0 160px #FF4019;
+    }
+}
+
+.nomressource1::after {
+    content: attr(data-text);
+    position: absolute;
+    right: 50%;
+    z-index: -1;
+    color: #FF4019;
+    filter: blur(15px);
+    animation: animate 3s linear infinite
+}
+
+
+/*nom ressource 2 Neon  effect*/
+
+.nomressource2 {
+    color: #fff;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    font-size: 200%;
+    position: absolute;
+    right: 60%;
+    top: 47%;
+    transform: rotate(0);
+    text-shadow: 0 0 20px #FF4019;
+}
+
+.nomressource2::after {
+    content: attr(data-text);
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    color: #FF4019;
+    filter: blur(15px);
+}
+
+
+/*nom ressource 3 Neon effect*/
+
+.nomressource3 {
+    color: #fff;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    font-size: 200%;
+    position: absolute;
+    right: 60%;
+    top: 57%;
+    transform: rotate(0);
+    text-shadow: 0 0 20px #FF4019;
+}
+
+.nomressource3::after {
+    content: attr(data-text);
+    position: absolute;
+    right: 15%;
+    z-index: -1;
+    color: #FF4019;
+    filter: blur(15px);
+}
+
+
+/*nom ressource 4 Neon effect*/
+
+.nomressource4 {
+    color: #fff;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    font-size: 200%;
+    position: absolute;
+    right: 60%;
+    top: 67%;
+    transform: rotate(0);
+    text-shadow: 0 0 20px #FF4019;
+}
+
+.nomressource4::after {
+    content: attr(data-text);
+    position: absolute;
+    right: -10%;
+    z-index: -1;
+    color: #FF4019;
+    filter: blur(15px);
+}
+
+
+/*lien ressource 1 Neon effect*/
+
+.lienressource1 {
+    text-decoration: none;
+    color: #331A00;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    font-size: 200%;
+    position: absolute;
+    right: 20%;
+    top: 37%;
+    transform: rotate(0);
+    text-shadow: 0 0 20px #331A00;
+}
+
+.lienressource1:hover {
+    color: #fff;
+    text-shadow: 0 0 20px #FF4019;
+}
+
+
+/*lien ressource 2 Neon effect*/
+
+.lienressource2 {
+    text-decoration: none;
+    color: #331A00;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    font-size: 200%;
+    position: absolute;
+    right: 15%;
+    top: 47%;
+    transform: rotate(0);
+    text-shadow: 0 0 50px #331A00;
+}
+
+.lienressource2:hover {
+    color: #fff;
+    text-shadow: 0 0 20px #FF4019;
+}
+
+
+/*lien ressource 3 Neon effect*/
+
+.lienressource3 {
+    text-decoration: none;
+    color: #331A00;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    font-size: 200%;
+    position: absolute;
+    right: 29.5%;
+    top: 57%;
+    transform: rotate(0);
+    text-shadow: 0 0 20px #331A00;
+}
+
+.lienressource3:hover {
+    color: #fff;
+    text-shadow: 0 0 20px #FF4019;
+}
+
+
+/*lien ressource 4 Neon effect*/
+
+.lienressource4 {
+    text-decoration: none;
+    color: #331A00;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    font-size: 200%;
+    position: absolute;
+    right: 42.5%;
+    top: 67%;
+    transform: rotate(0);
+    text-shadow: 0 0 20px #331A00;
+}
+
+.lienressource4:hover {
+    color: #fff;
+    text-shadow: 0 0 20px #FF4019;
+}
